@@ -1,0 +1,1 @@
+enum POSTTYPE { TEXT, IMAGE, VIDEO, LINK }
