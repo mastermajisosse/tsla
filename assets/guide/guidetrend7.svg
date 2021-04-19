@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="331.592" height="172.916" viewBox="0 0 331.592 172.916">
+  <g id="Group_1624" data-name="Group 1624" transform="translate(-5077.704 8631.458)">
+    <g id="Group_1592" data-name="Group 1592" transform="translate(5056 -9063.963)">
+      <g id="Group_693" data-name="Group 693" transform="translate(21.704 432.505)">
+        <path id="Path_75" data-name="Path 75" d="M11.635,0H319.957a11.855,11.855,0,0,1,11.635,12.064V160.852a11.855,11.855,0,0,1-11.635,12.064H11.635A11.855,11.855,0,0,1,0,160.852V12.064A11.855,11.855,0,0,1,11.635,0Z" transform="translate(0 0)" fill="#f5f5f5"/>
+        <g id="Group_562" data-name="Group 562" transform="translate(21.318 122.552)">
+          <g id="Group_58" data-name="Group 58" transform="translate(0 0)">
+            <text id="Overbought_Zones" data-name="Overbought Zones" transform="translate(0 31.439)" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="-0.04em" opacity="0.392"><tspan x="0" y="0">Overbought Zones</tspan></text>
+            <text id="_345" data-name="345" transform="translate(0 16.559)" font-size="17" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="-0.02em"><tspan x="0" y="0">345</tspan></text>
+            <text id="_378" data-name="378" transform="translate(48.674 16.559)" font-size="17" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="-0.02em"><tspan x="0" y="0">378</tspan></text>
+            <line id="Line_15" data-name="Line 15" x2="4.43" transform="translate(36.622 11.559)" fill="none" stroke="#969696" stroke-linecap="round" stroke-width="1.5"/>
+          </g>
+        </g>
+        <text id="AAPL" transform="translate(21.318 41.802)" font-size="32" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">AAPL</tspan></text>
+        <g id="Group_589" data-name="Group 589" transform="translate(206.358 27.599)">
+          <g id="Group_563" data-name="Group 563" transform="translate(71.981 -8.585) rotate(24)">
+            <line id="Line_16" data-name="Line 16" y1="19.204" x2="22.515" transform="translate(0 0)" fill="none" stroke="#4cce98" stroke-linecap="round" stroke-width="2" stroke-dasharray="3 5"/>
+          </g>
+          <path id="Path_11" data-name="Path 11" d="M1606.1,1962.368l2.624,4.826,2.624,1.3,2.624,3.254,2.624,2.657,2.624-.6,2.624.3,2.624,1.654,2.624-.434,2.624-3.118,2.624,2.142,2.624-3.769,2.624-.488,2.624-.271,2.624,1.491,2.624-2.115,2.624,4.935,2.624,1.355,2.624-2.413,2.624,1.681,2.624-1.925,2.623-.515,2.624.732,2.624-.108" transform="translate(-1606.099 -1962.368)" fill="none" stroke="#6c6c6c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" opacity="0.703"/>
+        </g>
+        <path id="Polygon_4" data-name="Polygon 4" d="M4.762,1.357a1,1,0,0,1,1.7,0l3.806,6.089a1,1,0,0,1-.848,1.53H1.8a1,1,0,0,1-.848-1.53Z" transform="translate(113.733 26.601)" fill="#4cce98"/>
+        <text id="Quality_Score" data-name="Quality Score" transform="translate(244.04 153.991)" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="-0.04em" opacity="0.397"><tspan x="0" y="0">Quality Score</tspan></text>
+        <text id="Possible_sell_this_week_Close_to_overbought_levels" data-name="Possible sell this week
+Close to overbought levels" transform="translate(110.701 81.958)" font-size="11" font-family="SegoeUI, Segoe UI" opacity="0.809"><tspan x="0" y="0">Possible sell this week</tspan><tspan x="0" y="15">Close to overbought levels</tspan></text>
+        <g id="Group_584" data-name="Group 584" transform="translate(259.103 115.819)">
+          <g id="Group_582" data-name="Group 582" transform="translate(0 0.001)">
+            <path id="Subtraction_1" data-name="Subtraction 1" d="M12.9,25.805A12.906,12.906,0,0,1,7.88,1.014,12.906,12.906,0,0,1,17.925,24.791,12.822,12.822,0,0,1,12.9,25.805Zm0-21.141a8.214,8.214,0,1,0,3.207.647A8.188,8.188,0,0,0,12.9,4.664Z" transform="translate(0 0)" fill="#ccc"/>
+          </g>
+          <path id="Union_4" data-name="Union 4" d="M10.121,12.353q0-.075,0-.149h-.006A7.831,7.831,0,0,0,9.5,9.283,7.882,7.882,0,0,0,2.232,4.465H2.084V4.46A2.233,2.233,0,0,1,2.084,0V0h.149A12.367,12.367,0,0,1,13.615,7.545a12.272,12.272,0,0,1,.97,4.659h0q0,.074,0,.149a2.232,2.232,0,0,1-4.465,0Z" transform="translate(11.22 0)" fill="#ff7091"/>
+        </g>
+        <g id="Group_1589" data-name="Group 1589">
+          <text id="Stop_Loss_Levels" data-name="Stop Loss Levels" transform="translate(139.028 153.99)" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="-0.04em" opacity="0.392"><tspan x="0" y="0">Stop Loss Levels</tspan></text>
+          <text id="_299" data-name="299" transform="translate(139.028 139.111)" font-size="17" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="-0.02em"><tspan x="0" y="0">299</tspan></text>
+          <text id="_301" data-name="301" transform="translate(181.375 139.11)" font-size="17" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="-0.02em"><tspan x="0" y="0">301</tspan></text>
+          <line id="Line_33" data-name="Line 33" y2="11.635" transform="translate(175.201 127.485)" fill="none" stroke="#969696" stroke-linecap="round" stroke-width="1.5"/>
+        </g>
+      </g>
+      <text id="Short_term" data-name="Short term" transform="translate(152.253 468.473)" font-size="12" font-family="SegoeUI, Segoe UI" opacity="0.809"><tspan x="0" y="0">Short term</tspan></text>
+      <g id="Group_1519" data-name="Group 1519" transform="translate(-108 262.473)">
+        <path id="Path_935" data-name="Path 935" d="M4,0H70a4,4,0,0,1,4,4V16a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(152 246)" fill="#4e51e5"/>
+        <text id="Hold_Sell" data-name="Hold/Sell" transform="translate(161 261)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Hold/Sell</tspan></text>
+      </g>
+    </g>
+    <rect id="Rectangle_273" data-name="Rectangle 273" width="226" height="172" rx="9" transform="translate(5183 -8631)" fill="#f5f5f5"/>
+    <rect id="Rectangle_274" data-name="Rectangle 274" width="226" height="112" rx="9" transform="translate(5078 -8571)" fill="#f5f5f5"/>
+  </g>
+</svg>

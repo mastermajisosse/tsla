@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="413.135" height="173.016" viewBox="0 0 413.135 173.016">
+  <g id="Group_1593" data-name="Group 1593" transform="translate(75.986 -701.818)">
+    <g id="Group_662" data-name="Group 662" transform="translate(281.457 760.763)">
+      <path id="Path_122" data-name="Path 122" d="M27.846,0A27.846,27.846,0,1,1,0,27.846,27.846,27.846,0,0,1,27.846,0Z" transform="translate(0 0)"/>
+      <g id="Group_661" data-name="Group 661" transform="translate(14.994 14.994)">
+        <line id="Line_30" data-name="Line 30" y2="25.704" transform="translate(12.852)" fill="none" stroke="#fff" stroke-width="3"/>
+        <line id="Line_31" data-name="Line 31" y2="25.704" transform="translate(25.704 12.852) rotate(90)" fill="none" stroke="#fff" stroke-width="3"/>
+      </g>
+    </g>
+    <g id="Group_1552" data-name="Group 1552" transform="translate(-98.5 474.491)">
+      <g id="Group_1548" data-name="Group 1548" transform="translate(0 0.702)">
+        <g id="Path_131" data-name="Path 131" transform="translate(22.514 226.625)" fill="none" opacity="0.201">
+          <path d="M12.578,0H318.395a11.832,11.832,0,0,1,11.578,12.071V160.945a11.832,11.832,0,0,1-11.578,12.071H11.578A11.832,11.832,0,0,1,0,160.945V12.071C0,5.4,6.184,0,12.578,0Z" stroke="none"/>
+          <path d="M 12.5780029296875 0.699981689453125 C 9.64471435546875 0.699981689453125 6.652374267578125 1.920181274414063 4.368194580078125 4.047683715820313 C 3.2294921875 5.108306884765625 2.331634521484375 6.327194213867188 1.699462890625 7.670394897460938 C 1.036285400390625 9.07965087890625 0.699981689453125 10.56015014648438 0.699981689453125 12.07084655761719 L 0.699981689453125 160.9447631835938 C 0.699981689453125 163.9875183105469 1.835113525390625 166.8466796875 3.89630126953125 168.99560546875 C 5.9498291015625 171.1365203857422 8.67791748046875 172.3155975341797 11.5780029296875 172.3155975341797 L 318.3946533203125 172.3155975341797 C 321.2947387695313 172.3155975341797 324.0228271484375 171.1365203857422 326.0763549804688 168.99560546875 C 328.1375427246094 166.8466796875 329.2726745605469 163.9875183105469 329.2726745605469 160.9447631835938 L 329.2726745605469 12.07084655761719 C 329.2726745605469 9.028106689453125 328.1375427246094 6.168930053710938 326.0763549804688 4.02001953125 C 324.0228271484375 1.879058837890625 321.2947387695313 0.699981689453125 318.3946533203125 0.699981689453125 L 12.5780029296875 0.699981689453125 M 12.5780029296875 -1.52587890625e-05 L 318.3946533203125 -1.52587890625e-05 C 324.7890319824219 -1.52587890625e-05 329.97265625 5.404312133789063 329.97265625 12.07084655761719 L 329.97265625 160.9447631835938 C 329.97265625 167.6113128662109 324.7890319824219 173.0156097412109 318.3946533203125 173.0156097412109 L 11.5780029296875 173.0156097412109 C 5.18365478515625 173.0156097412109 0 167.6113128662109 0 160.9447631835938 L 0 12.07084655761719 C 0 5.404312133789063 6.18365478515625 -1.52587890625e-05 12.5780029296875 -1.52587890625e-05 Z" stroke="none" fill="#000"/>
+        </g>
+        <text id="AMC" transform="translate(46 268)" font-size="32" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">AMC</tspan></text>
+        <text id="Internet_Retail" data-name="Internet Retail" transform="translate(45 282.113)" font-size="10" font-family="SegoeUI, Segoe UI" opacity="0.503"><tspan x="0" y="0">Internet Retail</tspan></text>
+        <path id="Path_132" data-name="Path 132" d="M2156.078,137.94l3.531-14.547,3.531,7.177,3.531-6.225,3.531-4.27,3.531-4.862,3.531,2.714,3.531-6.817,3.53,3.833,3.531-1.428,3.531,2.894,3.531-.785,3.531,1.569,3.531,10.187,3.53,2.431,3.531-1.08,3.531,8.849,3.531-1.453,3.531,5,3.531-3.511,3.531,19.268,3.53-.45" transform="translate(-1905.545 134.559)" fill="none" stroke="#ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <g id="Group_1492" data-name="Group 1492" transform="translate(129.838 28.375)" opacity="0.998">
+          <g id="Group_706" data-name="Group 706" transform="translate(129.107 277.888)">
+            <g id="Group_58" data-name="Group 58" transform="translate(0 0)">
+              <g id="Group_1537" data-name="Group 1537" transform="translate(0)">
+                <g id="Group_1540" data-name="Group 1540" transform="translate(0 -2.001)">
+                  <text id="Stop_Loss_Levels" data-name="Stop Loss Levels" transform="translate(0 77.114)" font-size="8" font-family="SegoeUI, Segoe UI" letter-spacing="-0.04em" opacity="0.497"><tspan x="0" y="0">Stop Loss Levels</tspan></text>
+                  <text id="_556" data-name="556" transform="translate(34.902 64.115)" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="-0.02em"><tspan x="0" y="0">556</tspan></text>
+                  <text id="_597" data-name="597" transform="translate(0 64.114)" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="-0.02em"><tspan x="0" y="0">597</tspan></text>
+                  <line id="Line_2" data-name="Line 2" y2="11.036" transform="translate(29.451 54.096)" fill="none" stroke="#969696" stroke-linecap="round" stroke-width="1.5"/>
+                </g>
+                <g id="Group_1539" data-name="Group 1539" transform="translate(0 1)">
+                  <text id="Overbought_Zones" data-name="Overbought Zones" transform="translate(0 27.223)" font-size="8" font-family="SegoeUI, Segoe UI" letter-spacing="-0.04em" opacity="0.497"><tspan x="0" y="0">Overbought Zones</tspan></text>
+                  <text id="_750" data-name="750" transform="translate(0 15.364)" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="-0.02em"><tspan x="0" y="0">750</tspan></text>
+                  <text id="_897" data-name="897" transform="translate(37 15.224)" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="-0.02em"><tspan x="0" y="0">897</tspan></text>
+                  <line id="Line_15" data-name="Line 15" x2="4.201" transform="translate(28.399 10.864)" fill="none" stroke="#969696" stroke-linecap="round" stroke-width="1.5"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Group_1384" data-name="Group 1384" transform="translate(-107 66)">
+          <rect id="Rectangle_239" data-name="Rectangle 239" width="63" height="20" rx="4" transform="translate(152 246)" fill="#f6f1db" opacity="0.701"/>
+          <text id="Short-term" transform="translate(160 259)" font-size="10" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Short-term</tspan></text>
+        </g>
+        <g id="Group_1493" data-name="Group 1493" transform="translate(0.5 2)">
+          <g id="Group_1490" data-name="Group 1490" transform="translate(53 8.367)">
+            <text id="_643" data-name="643" transform="translate(125.5 257.406)" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="-0.02em"><tspan x="0" y="0">643</tspan></text>
+          </g>
+          <text id="Last_close" data-name="Last close" transform="translate(161.5 280.113)" fill="#7f7f7f" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Last close</tspan></text>
+          <path id="Polygon_2" data-name="Polygon 2" d="M3.432,1.806a1,1,0,0,1,1.792,0L7.94,7.282a1,1,0,0,1-.9,1.444H1.612a1,1,0,0,1-.9-1.444Z" transform="translate(169.656 265.726) rotate(180)" fill="#ff7091"/>
+        </g>
+        <g id="Group_1536" data-name="Group 1536" transform="translate(-98.048 99.427)">
+          <g id="Group_1490-2" data-name="Group 1490" transform="translate(138.048 249.949)">
+            <text id="_56_" data-name="56%" transform="translate(7 17)" font-size="22" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">56%</tspan></text>
+          </g>
+          <text id="Potential_Gain" data-name="Potential Gain" transform="translate(145.048 280.949)" fill="#7f7f7f" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Potential Gain</tspan></text>
+        </g>
+        <g id="Group_1538" data-name="Group 1538" transform="translate(-104.668 2.805)">
+          <rect id="Rectangle_170" data-name="Rectangle 170" width="14.622" height="11.299" rx="3" transform="translate(259.601 353.291)" fill="#b3b4f4"/>
+          <rect id="Rectangle_171" data-name="Rectangle 171" width="14.622" height="11.299" rx="3" transform="translate(276.217 353.291)" fill="#ebebeb"/>
+          <rect id="Rectangle_172" data-name="Rectangle 172" width="14.954" height="11.299" rx="3" transform="translate(292.832 353.291)" fill="#ebebeb"/>
+          <rect id="Rectangle_173" data-name="Rectangle 173" width="14.954" height="11.299" rx="3" transform="translate(309.78 353.291)" fill="#ebebeb"/>
+          <text id="Risk_Reward" data-name="Risk / Reward" transform="translate(259.601 377.57)" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="-0.04em" opacity="0.497"><tspan x="0" y="0">Risk / Reward</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

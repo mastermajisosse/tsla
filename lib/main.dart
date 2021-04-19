@@ -3,6 +3,10 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:tsla/ui/screens/auth/login_screen.dart';
+import 'package:tsla/ui/screens/auth/splash_screen.dart';
+import 'package:tsla/ui/screens/bottom_bar.dart';
+import 'package:tsla/ui/screens/testing.dart';
 
 // import 'blocs/language/language_bloc.dart';
 import 'config/app_config.dart';
@@ -13,8 +17,10 @@ import 'ui/utils/appLocalizations.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  SystemChrome.setSystemUIOverlayStyle(
-      SystemUiOverlayStyle(statusBarColor: Colors.transparent));
+  // SystemChrome.setSystemUIOverlayStyle(
+  //     SystemUiOverlayStyle(statusBarColor: Colors.transparent));
+
+  SystemChrome.setEnabledSystemUIOverlays([]);
 
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
       .then((_) => runApp(MyApp()));
@@ -40,11 +46,12 @@ class MyApp extends StatelessWidget {
       //   Locale('en', 'US'), // English
       //   Locale('fr', ''), // French
       // ],
+      // home: Splashs(),
       title: AppConfig.appName,
       theme: ThemeData.light().copyWith(accentColor: Color(0xFF83b23c)),
-      // home: TestAnimation(),
       onGenerateRoute: router.Router.generateRoute,
-      initialRoute: router.initialRoute,
+      // initialRoute: LoginScreen.routeName,
+      initialRoute: BottomTabBarr.routeName,
       debugShowCheckedModeBanner: false,
     );
     // }))

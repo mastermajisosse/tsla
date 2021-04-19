@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="199.822" height="126.109" viewBox="0 0 199.822 126.109">
+  <g id="Group_1594" data-name="Group 1594" transform="translate(-87.59 -1475.286)">
+    <text id="TSLA" transform="translate(87.59 1591.396)" fill="#06001c" font-size="38" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">TSLA</tspan></text>
+    <g id="Group_646" data-name="Group 646" transform="translate(60.369 1307.286)">
+      <text id="TS" transform="translate(64 197)" font-size="27" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="-0.02em"><tspan x="-14.529" y="0">TS</tspan></text>
+      <path id="Path_121" data-name="Path 121" d="M0,0H156.963" transform="translate(48.648 207.766)" fill="none" stroke="#000" stroke-width="0.7"/>
+    </g>
+    <g id="Group_662" data-name="Group 662" transform="translate(202.516 1264.5)">
+      <path id="Path_122" data-name="Path 122" d="M22.948,0A22.948,22.948,0,1,1,0,22.948,22.948,22.948,0,0,1,22.948,0Z" transform="translate(39 289)"/>
+      <g id="Group_661" data-name="Group 661" transform="translate(51.357 301.357)">
+        <line id="Line_30" data-name="Line 30" y2="21.183" transform="translate(10.591)" fill="none" stroke="#fff" stroke-width="3"/>
+        <line id="Line_31" data-name="Line 31" y2="21.183" transform="translate(21.183 10.591) rotate(90)" fill="none" stroke="#fff" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

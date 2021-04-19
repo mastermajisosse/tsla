@@ -1,6 +1,8 @@
 // import 'package:tsla/ui/screens/settings/languages_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:tsla/ui/screens/add_screen.dart';
+import 'package:tsla/ui/screens/auth/login_screen.dart';
+import 'package:tsla/ui/screens/auth/splash_screen.dart';
 import 'package:tsla/ui/screens/bottom_bar.dart';
 import 'package:tsla/ui/screens/home_screen.dart';
 
@@ -14,7 +16,7 @@ import 'package:tsla/ui/screens/home_screen.dart';
 // import '../ui/screens/user/edit_user_profile_screen.dart';
 // import '../ui/screens/welcome_screen.dart';
 
-const String initialRoute = BottomTabBarr.routeName;
+const String initialRoute = LoginScreen.routeName;
 
 class Router {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -23,22 +25,12 @@ class Router {
         return MaterialPageRoute(builder: (_) => BottomTabBarr());
       case AddScreen.routeName:
         return MaterialPageRoute(builder: (_) => AddScreen());
-      // case WelcomeScreen.routeName:
-      //   return MaterialPageRoute(builder: (_) => WelcomeScreen());
-      // case MainScreen.routeName:
-      //   return MaterialPageRoute(builder: (_) => MainScreen());
-      // case LogInScreen.routeName:
-      //   return MaterialPageRoute(builder: (_) => LogInScreen());
-      // case SignUpScreen.routeName:
-      //   return MaterialPageRoute(builder: (_) => SignUpScreen());
-      // case PasswordScreen.routeName:
-      //   return MaterialPageRoute(builder: (_) => PasswordScreen());
-      // case EditUserProfileScreen.routeName:
-      //   return MaterialPageRoute(builder: (_) => EditUserProfileScreen());
-      // case SubscriptionScreen.routeName:
-      //   return MaterialPageRoute(builder: (_) => SubscriptionScreen());
-      // case LanguagesScreen.routeName:
-      //   return MaterialPageRoute(builder: (_) => LanguagesScreen());
+      case Splashs.routeName:
+        return MaterialPageRoute(builder: (_) => Splashs());
+      case LoginScreen.routeName:
+        return MaterialPageRoute(builder: (_) => LoginScreen());
+      // case LoginScreen.routeName:
+      //   return MaterialPageRoute(builder: (_) => LoginScreen());
 
       default:
         return MaterialPageRoute(

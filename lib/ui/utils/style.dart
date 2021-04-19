@@ -7,6 +7,7 @@ class Style {
   static final Color redColor = Color(0xFFf06060);
   static final Color greenColor = Color(0xFF39CC6C);
   static final Color grayColor = Color(0xFFF7F7F7);
+  static final Color greyColor = Color(0xFFF5F5F5);
 
   static final Color primaryColor = Color(0xFF0005D8);
   static final Color doneColor = greenColor;
@@ -19,6 +20,8 @@ class Style {
   static final Color bluewColor = Color(0xFFEFF1F6);
   static final Color grrenwColor = Color(0xFFECF8F5);
 
+  static final Color sellcolo = Color(0xFFFF7091);
+  static final Color holdcolo = Color(0xFF4CCE98);
   // text style
 
   static String fontf = "ProximaNova";
@@ -27,31 +30,69 @@ class Style {
     fontFamily: fontf,
     color: Colors.black,
     fontSize: ScreenUtil().setSp(134),
-    fontWeight: FontWeight.w900,
+    fontWeight: FontWeight.w700,
+    height: 1.0,
+  );
+  static TextStyle titleTextStyleguide = TextStyle(
+    fontFamily: fontf,
+    color: primaryColor,
+    fontSize: ScreenUtil().setSp(90),
+    fontWeight: FontWeight.w700,
+    height: 1.3,
   );
   static TextStyle dateTextStyle = TextStyle(
+    fontFamily: Style.fontf,
+    color: Color(0xFF6E6E6E),
+    fontSize: ScreenUtil().setSp(38),
+    fontWeight: FontWeight.normal,
+  );
+  static TextStyle dateTextStyle2 = TextStyle(
     fontFamily: fontf,
-    color: Colors.black.withOpacity(.5),
-    fontSize: ScreenUtil().setSp(35),
+    color: Color(0xFF6E6E6E),
+    fontSize: ScreenUtil().setSp(22),
     fontWeight: FontWeight.normal,
   );
   static TextStyle tagblackTextStyle = TextStyle(
     fontFamily: fontf,
     color: Colors.black,
-    fontSize: ScreenUtil().setSp(55),
+    fontSize: ScreenUtil().setSp(45),
+    fontWeight: FontWeight.w700,
+  );
+  static TextStyle marketTextStyle = TextStyle(
+    fontFamily: fontf,
+    color: Colors.black,
+    fontSize: ScreenUtil().setSp(48),
     fontWeight: FontWeight.w600,
   );
   static TextStyle tagwhiteTextStyle = TextStyle(
-    fontFamily: fontf,
+    fontFamily: Style.fontf,
     color: Colors.white,
-    fontSize: ScreenUtil().setSp(55),
+    fontSize: ScreenUtil().setSp(40),
     fontWeight: FontWeight.w600,
   );
+  static TextStyle butwhiteTextStyle = TextStyle(
+    fontFamily: Style.fontf,
+    color: Colors.white,
+    fontSize: ScreenUtil().setSp(52),
+    fontWeight: FontWeight.bold,
+  );
   static TextStyle nameincTextStyle = TextStyle(
+    fontFamily: Style.fontf,
+    color: Colors.black,
+    fontSize: ScreenUtil().setSp(85),
+    fontWeight: FontWeight.bold,
+  );
+  static TextStyle namenormalTextStyle = TextStyle(
     fontFamily: fontf,
     color: Colors.black,
-    fontSize: ScreenUtil().setSp(104),
-    fontWeight: FontWeight.w900,
+    fontSize: ScreenUtil().setSp(55),
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle subtitlTextStyle = TextStyle(
+    fontFamily: fontf,
+    color: Colors.black,
+    fontSize: ScreenUtil().setSp(60),
+    fontWeight: FontWeight.w500,
   );
   static TextStyle normalTextStyle = TextStyle(
     fontFamily: fontf,
@@ -59,10 +100,28 @@ class Style {
     fontSize: ScreenUtil().setSp(39),
     fontWeight: FontWeight.w800,
   );
+  static TextStyle normalslimTextStyle = TextStyle(
+    fontFamily: fontf,
+    color: Colors.black,
+    fontSize: ScreenUtil().setSp(48),
+    fontWeight: FontWeight.w100,
+  );
+  static TextStyle normalwhiteTextStyle = TextStyle(
+    fontFamily: fontf,
+    color: Colors.white,
+    fontSize: ScreenUtil().setSp(45),
+    fontWeight: FontWeight.w800,
+  );
   static TextStyle percentTextStyle = TextStyle(
     fontFamily: fontf,
     color: Colors.black,
     fontSize: ScreenUtil().setSp(77),
+    fontWeight: FontWeight.w800,
+  );
+  static TextStyle addnewTextStyle = TextStyle(
+    fontFamily: fontf,
+    color: Colors.black,
+    fontSize: 38,
     fontWeight: FontWeight.w800,
   );
 
@@ -78,9 +137,21 @@ class Style {
     fontFamily: 'Montserrat',
     fontSize: ScreenUtil().setSp(28),
   );
+  static TextStyle smallslimTextStyle = TextStyle(
+    color: Colors.black87,
+    fontFamily: fontf,
+    fontSize: ScreenUtil().setSp(36),
+    fontWeight: FontWeight.w100,
+  );
+  static TextStyle smallboldTextStyle = TextStyle(
+    color: Colors.black87,
+    fontFamily: fontf,
+    fontSize: ScreenUtil().setSp(28),
+    fontWeight: FontWeight.w800,
+  );
 
   static TextStyle placeholderTextStyle =
-      TextStyle(color: labelColor, fontFamily: 'Montserrat', fontSize: 14);
+      TextStyle(color: Colors.black45, fontFamily: fontf, fontSize: 22);
   static TextStyle subTitleTextStyle =
       TextStyle(fontSize: 12, color: Style.labelColor);
 
@@ -114,6 +185,34 @@ class Style {
       focusedBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(7),
         borderSide: BorderSide(color: Style.labelColor),
+      ),
+    );
+  }
+
+  static inputDecoration2(
+      {String hint, Widget icon = null, bool padding = false}) {
+    return InputDecoration(
+      // counterText: '',
+      hintText: '$hint',
+
+      hintStyle: placeholderTextStyle,
+      suffixIcon: icon ?? icon,
+      fillColor: labelColor,
+      contentPadding: padding
+          ? EdgeInsets.symmetric(horizontal: 15, vertical: 12)
+          : EdgeInsets.symmetric(horizontal: 15, vertical: 0),
+      border: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(7),
+        borderSide: BorderSide(color: Colors.transparent),
+      ),
+      focusedBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(7),
+        borderSide: BorderSide(color: Colors.transparent),
+      ),
+
+      enabledBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(7),
+        // borderSide: BorderSide(),
       ),
     );
   }
@@ -160,37 +259,56 @@ class Style {
   // box decoration
 
   static BoxDecoration shorttermDecoration(term) => BoxDecoration(
-        color: term == "short-term"
+        color: term == "Short-term"
             ? yellowColor
-            : term == "mid-term"
+            : term == "Mid-term"
                 ? grrenwColor
                 : bluewColor,
-        borderRadius: BorderRadius.circular(30),
+        borderRadius: BorderRadius.circular(5),
       );
-  // static BoxDecoration midtermDecoration = BoxDecoration(
-  //   color: grrenwColor,
-  //   borderRadius: BorderRadius.circular(30),
-  // );
-  // static BoxDecoration longtermDecoration = BoxDecoration(
-  //   color: bluewColor,
-  //   borderRadius: BorderRadius.circular(30),
-  // );
+  static BoxDecoration holdsellDecoration(holds) => BoxDecoration(
+        color: holds == "Hold"
+            ? primaryColor.withOpacity(.3)
+            : holds == "Sell"
+                ? primaryColor
+                : primaryColor.withOpacity(.66),
+        borderRadius: BorderRadius.circular(6),
+      );
   static BoxDecoration buttonDecoration = BoxDecoration(
       color: Style.primaryColor,
       borderRadius: BorderRadius.circular(32),
       border: Border.all(color: primaryColor, width: 2));
+  static BoxDecoration buttonblackDecoration = BoxDecoration(
+    color: Colors.black,
+    borderRadius: BorderRadius.circular(32),
+  );
   static BoxDecoration cardDecoration = BoxDecoration(
     color: cardColor,
     borderRadius: BorderRadius.circular(8),
+  );
+  static BoxDecoration roundblackDecoration = BoxDecoration(
+    color: Colors.black,
+    borderRadius: BorderRadius.circular(50),
+  );
+  static BoxDecoration roundprimDecoration = BoxDecoration(
+    color: primaryColor,
+    borderRadius: BorderRadius.circular(50),
   );
   static BoxDecoration outlineCardDecoration = BoxDecoration(
       color: darkColor,
       borderRadius: BorderRadius.circular(10),
       border: Border.all(color: cardColor, width: 2));
-  static BoxDecoration homeCardDecoration = BoxDecoration(
-      color: Colors.transparent,
+  static BoxDecoration homeCardDecoration(added) => BoxDecoration(
+      color: added == true ? Color(0xFFF2F2F2) : Colors.transparent,
       borderRadius: BorderRadius.circular(10),
-      border: Border.all(color: Colors.grey, width: 1));
+      border: Border.all(
+          color:
+              added == true ? Colors.transparent : Colors.black.withOpacity(.2),
+          width: 1));
+  static BoxDecoration portfolioCardDecoration(added) => BoxDecoration(
+        color: Color(0xFFF5F5F5),
+        borderRadius: BorderRadius.circular(10),
+      );
   static BoxDecoration categoryCardDecoration = BoxDecoration(
       color: darkColor,
       border: Border(
